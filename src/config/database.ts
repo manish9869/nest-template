@@ -8,6 +8,6 @@ export default registerAs('db', () => ({
   port: EnvHandler.envOG_VOUCHERS_DB_PORT() || 3306,
   username: EnvHandler.envOG_VOUCHERS_DB_USER() || 'root',
   password: EnvHandler.envOG_VOUCHERS_DB_PWD() || 'root',
-  database: EnvHandler.envOG_VOUCHERS_DB_NAME() || 'test'
+  database: EnvHandler.envOG_VOUCHERS_DB_NAME() || 'test env'
   
 }));
